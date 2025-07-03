@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Diagnóstico de Motos</title>
+    <!-- Bootstrap CSS para estructura HTML -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-body text-center p-5">
+                        <div class="motorcycle-icon mb-4">
+                            🏍️
+                        </div>
+                        <h1 class="card-title mb-4">Simulador de Diagnóstico de Motos</h1>
+                        
+                        <!-- Descripción del simulador -->
+                        <div class="text-start mb-4">
+                            <h3 class="h5 text-primary mb-3">Descripción del Simulador</h3>
+                            <p class="mb-3">
+                                Este simulador de diagnóstico de motos es una herramienta interactiva que permite identificar problemas comunes en motocicletas a través de un sistema de preguntas y respuestas. El usuario ingresa información sobre los síntomas que presenta su moto y el simulador analiza estos datos para proporcionar un diagnóstico probable junto con recomendaciones de reparación.
+                            </p>
+                            <p>
+                                El sistema utiliza una base de datos de problemas frecuentes en motocicletas, desde fallas en el motor hasta problemas eléctricos, y mediante algoritmos de decisión determina las posibles causas del mal funcionamiento. La interacción se realiza completamente a través de la consola de JavaScript y cuadros de diálogo, proporcionando una experiencia educativa sobre mecánica básica de motocicletas.
+                            </p>
+                        </div>
+
+                        <div class="alert alert-info" role="alert">
+                            <strong>Instrucciones:</strong> 
+                            <br>1. Abre la consola del navegador (F12)
+                            <br>2. Haz clic en "Iniciar Diagnóstico"
+                            <br>3. Sigue las instrucciones en los cuadros de diálogo
+                            <br>4. Revisa los resultados en la consola
+                        </div>
+
+                        <button id="iniciarDiagnostico" class="btn btn-primary btn-lg px-5 py-3">
+                            🔧 Iniciar Diagnóstico
+                        </button>
+
+                        <div class="mt-4">
+                            <small class="text-muted">
+                                Desarrollado como proyecto educativo - JavaScript Avanzado
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Archivo JS referenciado correctamente -->
+    <script src="main.js"></script>
+</body>
+</html>
